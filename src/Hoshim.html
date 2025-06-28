@@ -5,8 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
+    
 </head>
 <body>
-    <h1>Test    </h1>
+ <header>
+  <nav class="max-w-[1200px] mx-auto flex flex-wrap items-center gap-6 py-3 px-4">
+    <a href="/" class="block">
+      <img src="./img/logo (2).png" alt="Логотип компании" class="h-auto w-[140px]">
+    </a>
+
+     <div class="hidden lg:flex flex-wrap items-center justify-between gap-[35px] ml-auto">
+      <div class="text-right">
+        <p class="text-[#00578A] font-semibold text-lg">8 (495) 926-06-03</p>
+        <div class="flex items-center gap-5 mt-1">
+          <i class="fa-brands fa-whatsapp text-2xl text-white py-1 px-1 rounded-[5px] bg-green-500"></i>
+          <span class="text-sm">Whatsapp</span>
+        </div>
+      </div>
+
+      <address class="text-sm not-italic leading-tight">
+        <a href="mailto:info@gormedcentre.ru" class="block hover:underline">info@gormedcentre.ru</a>
+        <a href="#" class="hover:underline">Заказать звонок</a>
+      </address>
+
+      <address class="text-sm not-italic leading-tight">
+        г. Мытищи,<br>ул. Рождественская, д.7
+      </address>
+
+      <div class="text-sm leading-tight">
+        Ежедневно<br>с 9:00 до 21:00
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button class="bg-[#00C6BF] text-white p-4 px-6 rounded-xl" aria-label="Поиск">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="bg-[#E3EFF5] text-[#00578A] rounded-xl py-4 px-6 w-[200px] font-medium">
+     Личный кабинет
+        </button>
+      </div>
+    </div>
+
+     <div class="flex items-center gap-6 lg:hidden ml-auto text-xl">
+      <i class="fa-solid fa-phone-flip text-2xl text-[#00060f]"></i>
+      <p class="font-medium">Menu</p>
+      <i class="fa-solid fa-bars text-2xl text-[#00060f]"></i>
+    </div>
+  </nav>
+
+   <div class="max-w-[1200px] mx-auto px-4 flex justify-between items-center flex-wrap gap-4 mt-4">
+    <ul class="hidden lg:flex gap-[31px] font-semibold text-sm">
+      <li>Направления</li>
+      <li>Услуги</li>
+      <li>Врачи</li>
+      <li>Отзывы</li>
+      <li>Акции</li>
+      <li>О центре</li>
+      <li>Детство</li>
+      <li>Контакты</li>
+    </ul>
+
+    <div class="hidden lg:flex items-center gap-2 text-[#4f4f4f]">
+      <i class="fa-solid fa-glasses"></i>
+      <p class="text-sm">Версия для слабовидящих</p>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <button class="hidden lg:inline-block bg-[#00578A] text-white rounded-xl py-3 px-6 w-[200px] font-medium">
+       Запись на приём
+      </button>
+    </div>
+  </div>
+
+ <section
+  class="mt-6 lg:mt-[70px]
+         bg-gradient-to-b lg:bg-gradient-to-r
+         from-[#30BBC4] via-[#7A8DCF] to-[#F485B4]"
+>
+  <aside class="max-w-[1200px] mx-auto flex flex-col lg:flex-row justify-between items-center gap-[60px] px-4 py-10 lg:h-[600px]">
+
+    <div class="max-w-2xl flex flex-col gap-8 pt-4 lg:pt-[100px] w-full lg:w-auto">
+      <h1 class="text-white text-[32px] md:text-[40px] lg:text-[50px] font-bold leading-tight">
+        Позаботьтесь <br class="hidden md:block"> о здоровье ребенка
+      </h1>
+      <p class="text-white text-[16px] md:text-[18px] leading-relaxed">
+       Осуществляем комплексное медицинское обслуживание <br> населения: консультации и амбулаторное лечение у <br> специалистов всех направлений, медицинские <br> обследования и диагностические процедуры.
+      </p>
+      <button class="bg-[#00C6BF] text-white rounded-xl py-4 px-6 w-[200px] font-medium hover:bg-[#00b0ab] transition">
+        Записаться
+      </button>
+    </div>
+
+    <div class="relative w-full max-w-[500px] h-[400px] lg:h-[600px]">
+      <img src="./img/svg.png" alt="Фон"
+           class="absolute inset-0 w-full h-full   z-0">
+
+      <img src="./img/девушка с ребенком 1.png" alt="Девушка с ребенком"
+           class="absolute top-1/2 left-1/2 w-[300px] md:w-[400px] lg:w-[430px] transform -translate-x-1/2 -translate-y-1/2 z-10">
+    </div>
+
+  </aside>
+</section>
+
+
+</header>
+
 </body>
 </html>
