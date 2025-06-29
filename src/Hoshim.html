@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
     
 </head>
-<body>
- <header class="relative z-10     shadow-md">
+<body class="overflow-x-hidden ">
+ <header class="relative z-10 overflow-hidden   shadow-md">
   <nav class="max-w-[1200px] mx-auto flex flex-wrap items-center gap-6 py-3 px-4">
     <a href="/" class="block">
       <img src="./img/logo (2).png" alt="Логотип компании" class="h-auto w-[140px]">
@@ -113,7 +113,7 @@
 
 
 
-<main>
+<main class="">
   <section class="relative z-20  py-10 px-4 -mt-20 max-w-6xl mx-auto">
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     
@@ -198,45 +198,45 @@
 </section>
  
 
-<section class="bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] py-10 px-10">
-  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 pt-10 mb-10" >
+<section class="bg-gradient-to-r max-w-6xl mx-auto rounded-xl from-[#7D8DD0] to-[#2DBDC4] py-10 px-4 sm:px-10 lg:px-[50px]">
+  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 pt-10 mb-10">
     <div class="flex-1">
-      <h2 class="text-5xl font-bold text-white mb-10">Записаться на приём</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <option>Выберете направление</option>
-            </select>
-            <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваше имя" />
-    <datalist id="doctors">
-    <option value="Педиатр">
-    <option value="Дерматолог">
-    <option value="Стоматолог">
-    <option value="Логопед">
-    </datalist>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8 sm:mb-10">Записаться на приём</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <select class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full">
+          <option>Выберете направление</option>
+        </select>
+        <input list="doctors" class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full" placeholder="Ваше имя" />
+        <datalist id="doctors">
+          <option value="Педиатр"></option>
+          <option value="Дерматолог"></option>
+          <option value="Стоматолог"></option>
+          <option value="Логопед"></option>
+        </datalist>
 
-        <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full">
           <option>Выберете врача</option>
         </select>
-       <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваш телефон" />
-<datalist id="doctors">
-  <option value="Педиатр">
-  <option value="Дерматолог">
-  <option value="Стоматолог">
-  <option value="Логопед">
-</datalist>
-
+        <input list="doctors" class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full" placeholder="Ваш телефон" />
+        <datalist id="doctors">
+          <option value="Педиатр"></option>
+          <option value="Дерматолог"></option>
+          <option value="Стоматолог"></option>
+          <option value="Логопед"></option>
+        </datalist>
       </div>
     </div>
-    <div class="flex-1 flex flex-col justify-start pt-9 gap-6">
-      <p class="text-white text-lg">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
-      <button class="bg-[#00C6BF] text-white py-4 px-[100px] rounded hover:bg-blue-700 transition w-max">Оставить заявку</button>
-      <div class="flex items-start gap-2 mt-4">
-       
-  <label class="flex items-center space-x-5">
-    <input type="checkbox" class="h-5 w-5 text-green-600 border-gray-300 rounded" />
-    <span class="text-white">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</span>
-  </label>
-         
+
+    <div class="flex-1 flex flex-col justify-start pt-6 sm:pt-9 gap-6">
+      <p class="text-white text-base sm:text-lg">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+      <button class="bg-[#00C6BF] text-white py-3 sm:py-4 px-6 sm:px-[100px] rounded hover:bg-blue-700 transition w-full sm:w-max text-base sm:text-lg">
+        Оставить заявку
+      </button>
+      <div class="flex items-start gap-3 mt-4">
+        <label class="flex items-center space-x-3 sm:space-x-5 cursor-pointer">
+          <input type="checkbox" class="h-4 w-4 sm:h-5 sm:w-5 text-green-600 border-gray-300 rounded" />
+          <span class="text-white text-sm sm:text-base">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</span>
+        </label>
       </div>
     </div>
   </div>
@@ -522,75 +522,75 @@
 
 
 
-
 <section class="py-12 px-4 bg-gradient-to-r from-[#02B4C6] to-[#0074B8]">
   <div class="max-w-[1200px] mx-auto">
-    <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+    <div class="flex flex-col lg:flex-row justify-between items-start mb-8 gap-6">
       <div class="lg:w-2/3">
-        <h2 class="text-4xl font-bold text-white mb-4">Блог от наших специалистов</h2>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">Блог от наших специалистов</h2>
       </div>
-      <div>
-        <button class="bg-[#00C6BF] text-white px-[60px] py-3 rounded-sm hover:bg-blue-700 transition">
+      <div class="w-full lg:w-auto">
+        <button class="bg-[#00C6BF] text-white px-6 py-2 sm:px-12 sm:py-3 rounded-sm hover:bg-blue-700 transition w-full lg:w-auto text-sm sm:text-base">
           Читать все
         </button>
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <article class="p-4 rounded-xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+      <article class="p-4 rounded-xl cursor-pointer hover:bg-white/10 transition">
         <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
-        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
-        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
-        <div class="flex items-start gap-2">
-          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+        <h3 class="text-base sm:text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-xs sm:text-sm text-white mb-3 leading-relaxed line-clamp-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе которого лежит...</p>
+        <div class="flex items-center gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
           <div>
-            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
-            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+            <p class="font-medium text-[#FFFFFFB2] text-xs sm:text-sm">Савина Наталья</p>
+            <p class="text-xs sm:text-sm text-[#FFFFFFB2]">30 авг. 2023 · 5 минут на чтение</p>
           </div>
         </div>
       </article>
 
-      <article class="p-4 rounded-xl">
+       <article class="p-4 rounded-xl cursor-pointer hover:bg-white/10 transition">
         <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
-        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
-        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
-        <div class="flex items-start gap-2">
-          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+        <h3 class="text-base sm:text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-xs sm:text-sm text-white mb-3 leading-relaxed line-clamp-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе которого лежит...</p>
+        <div class="flex items-center gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
           <div>
-            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
-            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+            <p class="font-medium text-[#FFFFFFB2] text-xs sm:text-sm">Савина Наталья</p>
+            <p class="text-xs sm:text-sm text-[#FFFFFFB2]">30 авг. 2023 · 5 минут на чтение</p>
           </div>
         </div>
       </article>
 
-      <article class="p-4 rounded-xl">
+      <article class="p-4 rounded-xl cursor-pointer hover:bg-white/10 transition">
         <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
-        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
-        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
-        <div class="flex items-start gap-2">
-          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+        <h3 class="text-base sm:text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-xs sm:text-sm text-white mb-3 leading-relaxed line-clamp-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе которого лежит...</p>
+        <div class="flex items-center gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
           <div>
-            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
-            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+            <p class="font-medium text-[#FFFFFFB2] text-xs sm:text-sm">Савина Наталья</p>
+            <p class="text-xs sm:text-sm text-[#FFFFFFB2]">30 авг. 2023 · 5 минут на чтение</p>
           </div>
         </div>
       </article>
 
-      <article class="p-4 rounded-xl">
+      <article class="p-4 rounded-xl cursor-pointer hover:bg-white/10 transition">
         <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
-        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
-        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
-        <div class="flex items-start gap-2">
-          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+        <h3 class="text-base sm:text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-xs sm:text-sm text-white mb-3 leading-relaxed line-clamp-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе которого лежит...</p>
+        <div class="flex items-center gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full" />
           <div>
-            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
-            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+            <p class="font-medium text-[#FFFFFFB2] text-xs sm:text-sm">Савина Наталья</p>
+            <p class="text-xs sm:text-sm text-[#FFFFFFB2]">30 авг. 2023 · 5 минут на чтение</p>
           </div>
         </div>
       </article>
     </div>
   </div>
 </section>
+
 
 
 
@@ -700,50 +700,112 @@
   </div>
 </section>
 
-<section class="bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] py-10 px-10">
-  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 pt-10 mb-10" >
+<section class="bg-gradient-to-r max-w-6xl mx-auto rounded-xl  from-[#7D8DD0] to-[#2DBDC4] py-10 px-6 sm:px-10 lg:px-[50px]">
+  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 pt-10 mb-10">
     <div class="flex-1">
-      <h2 class="text-5xl font-bold text-white mb-10">Записаться на приём</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <option>Выберете направление</option>
-            </select>
-            <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваше имя" />
-    <datalist id="doctors">
-    <option value="Педиатр">
-    <option value="Дерматолог">
-    <option value="Стоматолог">
-    <option value="Логопед">
-    </datalist>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8 sm:mb-10">Записаться на приём</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <select class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full">
+          <option>Выберете направление</option>
+        </select>
+        <input list="doctors" class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full" placeholder="Ваше имя" />
+        <datalist id="doctors">
+          <option value="Педиатр"></option>
+          <option value="Дерматолог"></option>
+          <option value="Стоматолог"></option>
+          <option value="Логопед"></option>
+        </datalist>
 
-        <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full">
           <option>Выберете врача</option>
         </select>
-       <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваш телефон" />
-<datalist id="doctors">
-  <option value="Педиатр">
-  <option value="Дерматолог">
-  <option value="Стоматолог">
-  <option value="Логопед">
-</datalist>
-
+        <input list="doctors" class="border border-gray-300 rounded px-4 py-3 sm:py-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base sm:text-lg w-full" placeholder="Ваш телефон" />
+        <datalist id="doctors">
+          <option value="Педиатр"></option>
+          <option value="Дерматолог"></option>
+          <option value="Стоматолог"></option>
+          <option value="Логопед"></option>
+        </datalist>
       </div>
     </div>
-    <div class="flex-1 flex flex-col justify-start pt-9 gap-6">
-      <p class="text-white text-lg">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
-      <button class="bg-[#00C6BF] text-white py-4 px-[100px] rounded hover:bg-blue-700 transition w-max">Оставить заявку</button>
-      <div class="flex items-start gap-2 mt-4">
-       
-  <label class="flex items-center space-x-5">
-    <input type="checkbox" class="h-5 w-5 text-green-600 border-gray-300 rounded" />
-    <span class="text-white">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</span>
-  </label>
-         
+
+    <div class="flex-1 flex flex-col justify-start pt-6 sm:pt-9 gap-6">
+      <p class="text-white text-base sm:text-lg">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+      <button class="bg-[#00C6BF] text-white py-3 sm:py-4 px-8 sm:px-[100px] rounded hover:bg-blue-700 transition w-full sm:w-max text-base sm:text-lg">Оставить заявку</button>
+      <div class="flex items-start gap-3 mt-4">
+        <label class="flex items-center space-x-3 sm:space-x-5 cursor-pointer">
+          <input type="checkbox" class="h-4 w-4 sm:h-5 sm:w-5 text-green-600 border-gray-300 rounded" />
+          <span class="text-white text-sm sm:text-base">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</span>
+        </label>
       </div>
     </div>
   </div>
 </section>
 
+
 </main>
+
+<footer class="bg-[#F0F6F9] pt-10 pb-6 ">
+  <div class="max-w-[1200px] mx-auto px-4">
+ 
+    <div class="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-10 pb-6 border-b border-gray-300">
+      <img src="./img/logo (2).png" alt="Логотип" class="w-28 sm:w-32 lg:w-40" />
+      <ul class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-8 gap-4 sm:gap-6 text-sm font-bold w-full">
+        <li><a href="#" class="hover:underline block">Направления</a></li>
+        <li><a href="#" class="hover:underline block">Услуги</a></li>
+        <li><a href="#" class="hover:underline block">Врачи</a></li>
+        <li><a href="#" class="hover:underline block">Отзывы</a></li>
+        <li><a href="#" class="hover:underline block">Акции</a></li>
+        <li><a href="#" class="hover:underline block">О центре</a></li>
+        <li><a href="#" class="hover:underline block">Детство</a></li>
+        <li><a href="#" class="hover:underline block">Контакты</a></li>
+      </ul>
+    </div>
+
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 text-sm text-gray-700">
+      <div class="flex flex-col gap-2">
+        <p class="font-semibold">© 2011-2023 Городской Медицинский</p>
+        <p class="font-semibold">Центр. Все права защищены.</p>
+        <p class="pt-[70px] cursor-pointer hover:underline">Политика конфиденциальности</p>
+      </div>
+      <div class="flex flex-col gap-4">
+        <p class="text-[#00578A] text-2xl font-semibold">8 (495) 926-06-03</p>
+        <p class="text-[#00578A] text-2xl font-semibold">8 (495) 588-08-80</p>
+        <div class="flex items-center gap-3 pt-6 cursor-pointer hover:text-green-600 transition-colors">
+          <i class="fa-brands fa-whatsapp text-2xl text-white py-1 px-1 rounded-md bg-green-500"></i>
+          <span class="text-sm">Написать в Whatsapp</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-2">
+        <p class="font-semibold">г. Мытищи, ул. Рождественская, д.7</p>
+        <p>Ежедневно с 9.00 до 21.00</p>
+        <div class="flex items-center gap-3 cursor-pointer pt-[60px] hover:bg-[#0d5be3] hover:text-white rounded transition-colors w-max">
+          <i class="fa-brands fa-vk text-white py-3 px-4 rounded-md bg-[#0d5be3]"></i>
+          <span class="text-sm ">Vkontakte</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <button class="bg-[#E3EFF5] py-3 px-6 sm:px-10 rounded-sm text-sm font-bold hover:bg-[#c6d9e3] transition w-full sm:w-auto">Заказать обратный звонок</button>
+        <div class="pt-[45px] pl-0 sm:pl-10">
+          <p class="mb-2 cursor-pointer hover:underline">info@gormedcentre.ru</p>
+          <div class="hidden lg:flex items-center gap-2 text-gray-600">
+            <i class="fa-solid fa-glasses"></i>
+            <p>Версия для слабовидящих</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+   <div class="bg-white py-5 mt-10 text-xs text-gray-600">
+    <div class="max-w-[1200px] mx-auto px-4 leading-relaxed">
+      Информация о ценах носит уведомительный характер и не является публичной офертой. Действующий прейскурант, заверенный печатью и подписью руководителя, находится на информационных стендах Центра. Деятельность ООО «ГМЦ» осуществляется на основании действующей лицензии, выданной Департаментом здравоохранения города Москвы. Имеются противопоказания. Необходимо проконсультироваться со специалистом.
+    </div>
+  </div>
+</footer>
+
+
+
 </body>
 </html>
