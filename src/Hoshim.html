@@ -300,7 +300,7 @@
       </div>
     </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 place-self-center sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="bg-[#F0F6F9]   rounded-xl text-center">
             <img src="./img/image (30).png" alt="Врач" class=" object-cover rounded-lg mb-4" />
             <h3 class="text-xl font-semibold text-gray-800 mb-2 py-6">Магнитно-резонансная томография (МРТ)</h3>
@@ -362,12 +362,12 @@
 
 <section class="py-12 px-4 bg-white">
   <div class="max-w-[1200px] mx-auto">
-    <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+    <div class="flex flex-col  lg:flex-row justify-between items-start mb-10 gap-6">
       <div class="lg:w-2/3">
         <h2 class="text-4xl font-bold text-gray-800 mb-4">Врачи</h2>
     </div>
       <div class="flex gap-4">
-        <button class="bg-gray-200 text-gray-800 rounded-full p-3 hover:bg-gray-300 transition">
+        <button class="bg-[#EAF6FF] text-gray-800 rounded-full p-3 hover:bg-gray-300 transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -380,7 +380,7 @@
       </div>
     </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 place-self-center sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="    rounded-xl ">
             <img src="./img/photo.png" alt="Врач" class=" object-cover rounded-lg mb-4" />
             <h3 class="text-xl font-semibold text-[#017CC1] mb-2 py-3">Крятов Андрей</h3>
@@ -405,6 +405,340 @@
         <h3 class="text-xl font-semibold text-[#017CC1] py-5  mb-2">Николаeва Оксана  </h3>
         <p class="py-2">Врач-терапевт</p>
          <button class="bg-[#00578A] text-white py-2 px-[100px] rounded hover:bg-blue-700 transition">Записаться</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 py-10 max-w-[1200px] mx-auto">
+  <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+    <div class="lg:w-2/3">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">Отзывы пациентов</h2>
+    </div>
+    <div class="flex gap-4">
+      <button class="bg-[#EAF6FF] text-gray-800 rounded-full p-3 hover:bg-gray-300 transition" aria-label="Назад">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+      <button class="bg-[#017CC1] text-white rounded-full p-3 hover:bg-blue-700 transition" aria-label="Вперед">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <article class="flex flex-col items-start rounded-xl p-6 gap-4 shadow bg-white">
+      <h3 class="text-xl font-bold text-gray-900">Балушина Татьяна</h3>
+      <time datetime="2022-04-18" class="text-gray-600">18 апреля 2022</time>
+      <img src="./img/Stars.png" alt="Рейтинг: 5 звезд" class="object-cover rounded mb-4" />
+      <button class="border border-[#017CC1] text-[#017CC1] px-10 py-2 rounded hover:bg-blue-700 hover:text-white transition mb-4" type="button">
+        Подробнее
+      </button>
+      <p class="text-gray-700">
+        Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением ультразвуковой диагностики. Спасибо Наталье Ивановне за внимательное отношение к пациентам! При возникновении проблем теперь только к ней!
+      </p>
+      <p class="text-gray-600">
+        Врач: <span class="text-sky-500">Савина Наталья Владимировна</span>
+      </p>
+    </article>
+
+    <article class="flex flex-col items-start rounded-xl p-6 gap-4 shadow bg-white">
+      <h3 class="text-xl font-bold text-gray-900">Трофимов Иван</h3>
+      <time datetime="2021-11-24" class="text-gray-600">24 ноября 2021</time>
+      <img src="./img/Stars.png" alt="Рейтинг: 5 звезд" class="object-cover rounded mb-4" />
+      <button class="border border-[#017CC1] text-[#017CC1] px-10 py-2 rounded hover:bg-blue-700 hover:text-white transition mb-4" type="button">
+        Подробнее
+      </button>
+      <p class="text-gray-700">
+        Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий профессионал!
+      </p>
+      <p class="text-gray-600">
+        Врач: <span class="text-sky-500">Крятов Андрей Михайлович</span>
+      </p>
+    </article>
+  </div>
+</section>
+
+
+<section class="py-12 px-4 bg-white">
+  <div class="max-w-[1200px] mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+      <div class="lg:w-2/3">
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">Технологии и оборудование</h2>
+      </div>
+      <div class="flex gap-4">
+        <button class="bg-[#EAF6FF] text-gray-800 rounded-full p-3 hover:bg-gray-300 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+        <button class="bg-[#017CC1] text-white rounded-full p-3 hover:bg-blue-700 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+      <article class="rounded-xl bg-[#F0F6F9] overflow-hidden shadow-sm">
+        <img src="./img/УЗИ Aplio 400.png" alt="УЗИ Aplio 400" class="w-full h-auto object-cover rounded-t-lg" />
+        <div class="p-4">
+          <p class="text-sm text-[#017CC1] mb-1">УЗИ Аппарат</p>
+          <h3 class="text-xl font-semibold text-[#017CC1] mb-2">УЗИ Aplio 400</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Аппарат УЗИ экспертного класса, обеспечивающий удивительно четкое изображение, превосходную производительность и эргономичное рабочее место с полностью настраиваемой консолью.
+          </p>
+        </div>
+      </article>
+
+      <article class="rounded-xl bg-[#F0F6F9] overflow-hidden shadow-sm">
+        <img src="./img/Колоноскоп Olympus cF-Q150l.png" alt="Колоноскоп Olympus cF-Q150l" class="w-full h-auto object-cover rounded-t-lg" />
+        <div class="p-4">
+          <p class="text-sm text-[#017CC1] mb-1">Колоноскоп</p>
+          <h3 class="text-xl font-semibold text-[#017CC1] mb-2">Olympus cF-Q150l</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            Колоновидеоскоп CF-Q150 L предназначен для практического использования с широким диаметром инструментального канала в 3,7 мм и наружным диаметром и дистального конца, и вводимой трубки 12,8 мм.
+          </p>
+        </div>
+      </article>
+
+      <article class="rounded-xl bg-[#F0F6F9] overflow-hidden shadow-sm">
+        <img src="./img/ПроГраф 5000.png" alt="Рентген-аппарат ПроГраф 5000" class="w-full h-auto object-cover rounded-t-lg" />
+        <div class="p-4">
+          <p class="text-sm text-[#017CC1] mb-1">Рентген-аппарат</p>
+          <h3 class="text-xl font-semibold text-[#017CC1] mb-2">ПроГраф 5000</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">
+            ПроГраф-5000 с конструкцией штатива типа С-дуга предназначен для проведения флюорографического обследования органов грудной клетки пациента в прямой и боковой проекциях в положении стоя и обеспечивает цифровую регистрацию изображения.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="py-12 px-4 bg-gradient-to-r from-[#02B4C6] to-[#0074B8]">
+  <div class="max-w-[1200px] mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+      <div class="lg:w-2/3">
+        <h2 class="text-4xl font-bold text-white mb-4">Блог от наших специалистов</h2>
+      </div>
+      <div>
+        <button class="bg-[#00C6BF] text-white px-[60px] py-3 rounded-sm hover:bg-blue-700 transition">
+          Читать все
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <article class="p-4 rounded-xl">
+        <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
+        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
+        <div class="flex items-start gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
+            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="p-4 rounded-xl">
+        <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
+        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
+        <div class="flex items-start gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
+            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="p-4 rounded-xl">
+        <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
+        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
+        <div class="flex items-start gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
+            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="p-4 rounded-xl">
+        <img src="./img/Image1.png" alt="Фото" class="w-full h-auto rounded-lg mb-2" />
+        <h3 class="text-lg font-semibold text-white mb-1">Кто находится в группе риска по глаукоме?</h3>
+        <p class="text-sm text-white mb-3 py-3">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...</p>
+        <div class="flex items-start gap-2">
+          <img src="./img/Image.png" alt="Фото" class="w-12 h-12 rounded-full" />
+          <div>
+            <p class="font-medium text-[#FFFFFFB2]">Савина Наталья</p>
+            <p class="text-sm text-[#FFFFFFB2]">30 авг. 2023 5 минут на чтение</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="max-w-[1200px] mx-auto px-6 py-12" aria-label="Наши партнеры">
+  <header class="mb-8 text-center">
+    <h2 class="text-4xl font-bold text-gray-800">Наши партнеры</h2>
+  </header>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-6">
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (35).png" alt="Партнер 1" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (36).png" alt="Партнер 2" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (37).png" alt="Партнер 3" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (38).png" alt="Партнер 4" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (39).png" alt="Партнер 5" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (40).png" alt="Партнер 6" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (41).png" alt="Партнер 7" class="max-h-20 object-contain" />
+    </article>
+
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (42).png" alt="Партнер 8" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (43).png" alt="Партнер 9" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (44).png" alt="Партнер 10" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (45).png" alt="Партнер 11" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (46).png" alt="Партнер 12" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (47).png" alt="Партнер 13" class="max-h-20 object-contain" />
+    </article>
+    <article class="bg-[#F0F6F9] rounded p-4 flex items-center justify-center">
+      <img src="./img/image (48).png" alt="Партнер 14" class="max-h-20 object-contain" />
+    </article>
+  </div>
+</section>
+
+
+
+
+
+<section class="py-12 px-4 bg-white">
+  <div class="max-w-[1200px] mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">
+      <div class="lg:w-2/3">
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">Лицензии и сертификаты</h2>
+      </div>
+      <div class="flex gap-4">
+        <button class="bg-[#EAF6FF] text-gray-800 rounded-full p-3 hover:bg-gray-300 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+        <button class="bg-[#017CC1] text-white rounded-full p-3 hover:bg-blue-700 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <article class="rounded-xl flex flex-col items-center text-center bg-white shadow-md">
+        <img src="./img/image (49).png" alt="Врач Крятов Андрей" class="object-cover rounded-lg mb-4 max-w-full w-56" />
+        <p class="py-2">Сертификат ГОСТ Р ISO 9001-2015</p>
+      </article>
+      <article class="rounded-xl flex flex-col items-center text-center  bg-white shadow-md">
+        <img src="./img/image (50).png" alt="Врач Савина Наталья" class="max-w-full w-56" />
+        <p class="py-2 text-[#017CC1]">Лицензия Л041-01162-5000369739 (выписка из реестра)</p>
+      </article>
+      <article class="rounded-xl flex flex-col items-center text-center  bg-white shadow-md">
+        <img src="./img/image (50).png" alt="Врач Зотова Гюзяль" class="max-w-full w-56" />
+        <p class="py-2">Лицензия Л017-01162-50/00561579 (выписка из реестра)</p>
+      </article>
+      <article class="rounded-xl flex flex-col items-center text-center          bg-white shadow-md">
+        <img src="./img/image (50).png" alt="Врач Николаева Оксана" class="max-w-full w-56" />
+        <p class="py-2">Лицензия Л041-01162-50/00338967 (выписка из реестра)</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="max-w-[1200px] mx-auto py-10 px-4">
+  <div class="lg:w-2/3">
+    <h2 class="text-4xl font-bold text-gray-800 mb-6">Как нас найти</h2>
+  </div>
+  <div class="w-full">
+    <img src="./img/map.png" alt="Карта" class="w-full h-auto rounded-lg shadow-md" />
+  </div>
+</section>
+
+<section class="bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] py-10 px-10">
+  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 pt-10 mb-10" >
+    <div class="flex-1">
+      <h2 class="text-5xl font-bold text-white mb-10">Записаться на приём</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option>Выберете направление</option>
+            </select>
+            <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваше имя" />
+    <datalist id="doctors">
+    <option value="Педиатр">
+    <option value="Дерматолог">
+    <option value="Стоматолог">
+    <option value="Логопед">
+    </datalist>
+
+        <select class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option>Выберете врача</option>
+        </select>
+       <input list="doctors" class="border border-gray-300 rounded px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ваш телефон" />
+<datalist id="doctors">
+  <option value="Педиатр">
+  <option value="Дерматолог">
+  <option value="Стоматолог">
+  <option value="Логопед">
+</datalist>
+
+      </div>
+    </div>
+    <div class="flex-1 flex flex-col justify-start pt-9 gap-6">
+      <p class="text-white text-lg">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+      <button class="bg-[#00C6BF] text-white py-4 px-[100px] rounded hover:bg-blue-700 transition w-max">Оставить заявку</button>
+      <div class="flex items-start gap-2 mt-4">
+       
+  <label class="flex items-center space-x-5">
+    <input type="checkbox" class="h-5 w-5 text-green-600 border-gray-300 rounded" />
+    <span class="text-white">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</span>
+  </label>
+         
       </div>
     </div>
   </div>
